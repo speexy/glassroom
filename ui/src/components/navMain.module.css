@@ -11,6 +11,10 @@
   }
 }
 
+.navMain a {
+  margin-left: gutter;
+}
+
 .navMain a:hover {
   color: active;
 }
