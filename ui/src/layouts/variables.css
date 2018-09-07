@@ -7,7 +7,7 @@
 /*sizes*/
 @value maxContentWidth: 1170px;
 @value padding: 15px;
-@value gutter: 20px;
+@value gutter: 30px;
 @value headerHeight: 64px;
 @value footerHeight: auto;
 @value iconSize: 18px;
