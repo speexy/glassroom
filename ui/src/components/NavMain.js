@@ -13,6 +13,9 @@ const NavMain = (props) => {
           <Link to={'/about'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
               About
           </Link>
+          <Link to={'/glassroom-experience'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
+              Experience
+          </Link>
       </ul>
     </nav>
   )
