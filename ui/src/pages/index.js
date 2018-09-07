@@ -3,10 +3,11 @@ import styles from './index.module.css';
 
 export default ({ data }) => {
 
+    const images = data.markdownRemark.frontmatter.sliderImages[0].image
 
     return (
         <div>
-          <h1>{data.markdownRemark.frontmatter.title}</h1>
+          <div className={styles.slider} style={{ backgroundImage: `url(${images})` }}></div>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} ></div>
         </div>
     );
@@ -17,7 +18,9 @@ export const indeQuery = graphql`
   query indeQuery ($path: String!) {
     markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
-        title
+        sliderImages{
+          image
+        }
       }
       html
     }

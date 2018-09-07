@@ -14,6 +14,13 @@ module.exports = {
             },
         },
         {
+            resolve: 'gatsby-source-filesystem',
+            options: {
+                path: `${__dirname}/static/uploads`,
+                name: 'images'
+            }
+        },
+        {
             resolve: 'gatsby-plugin-favicon',
             options: {
                 logo: './src/favicon.ico',
