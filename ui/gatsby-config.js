@@ -3,7 +3,7 @@ module.exports = {
         title: '',
         description: ''
     },
-    pathPrefix: '/',
+    pathPrefix: '/glassroom',
     plugins: [
         'gatsby-plugin-react-helmet',
         {
