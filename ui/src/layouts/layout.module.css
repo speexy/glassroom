@@ -1,8 +1,0 @@
-@import "./variables.css";
-
-.main {
-  max-width: maxContentWidth;
-  margin: 0 auto;
-  padding: padding;
-  padding-top: calc(headerHeight + padding);
-}
