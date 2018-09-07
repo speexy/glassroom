@@ -9,7 +9,10 @@
 /* base font styles */
 :global body {
   margin: 0;
-  font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: grey;
+  font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1.5em;
   overflow-x: hidden;
 }
