@@ -35,7 +35,7 @@
   height: 34px;
   width: 46px;
 }
-@media (min-width: break-tablet){
+@media (min-width: tablet){
   .hamburger{
     display: none;
   }
