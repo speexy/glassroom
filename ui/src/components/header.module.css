@@ -4,9 +4,10 @@
 @value imageHeight: 500px;
 
 .header {
+  position: fixed;
   background-color: lightGrey;
   width:100%;
-  height: 64px;
+  height: headerHeight;
 }
 
 .wrapper {
@@ -16,5 +17,5 @@
 }
 
 .logo{
-  width: 220px; 
+  width: 220px;
 }
