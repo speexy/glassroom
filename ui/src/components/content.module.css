@@ -1,0 +1,21 @@
+@import "../layouts/variables.css";
+
+
+
+.content p, .content ul, .content pre {
+  padding: padding 0;
+}
+
+.content img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: gutter;
+}
+
+.content pre {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  white-space: pre-wrap;
+}

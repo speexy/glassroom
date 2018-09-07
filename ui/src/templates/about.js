@@ -1,5 +1,6 @@
 import React from 'react';
 import {Blockquote} from '../components/Blockquote.js';
+import {Content} from '../components/Content.js';
 import styles from './about.module.css';
 
 export default ({ data }) => {
@@ -17,7 +18,7 @@ export default ({ data }) => {
                 <div className={styles.imageWrapper}><div key={i} className={styles.rowImage} style={{ backgroundImage: `url(${n})` }}></div></div>
             ))}
           </div>
-          <div dangerouslySetInnerHTML={{ __html: data.about.html }} ></div>
+          <Content content={data.about.html }/>
         </div>
     );
 
