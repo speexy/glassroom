@@ -10,21 +10,27 @@ imageRow:
 
 In 2030 there will be an estimated 125 billion connected devices – 14 for each person. That’s a lot of smart toothbrushes. Will all these new technologies really make our lives more efficient, healthier and safer? The Glass Room Experience explores the companies and mechanisms that make our everyday technologies as well as connect the Internet of Things (IoT). Play Fake or Real to see how smart you are in the world of smart devices. Find out more about what's really happening behind the screen in The Internet You Don't See. Pick up a free Data Detox Kit, our easy, 8-day digital privacy guide that gives you simple steps to take control of your online life, not to mention your smart devices. The Glass Room Experience is being exhibited at events, libraries, schools, organisations and companies around the world. You can see where other events are taking place at www.theglassroom.org to join the global conversation about data and privacy.
 
-What's in The Glass Room Experience IoT Edition?
+# What's in The Glass Room Experience IoT Edition?
 The Glass Room installation consists of:
 
 
+
+```
+Two new tablet apps – the Fake or Real game and The Internet you Don’t See -
+displayed on three tablets with their own table surround.
+```
 ![description](/uploads/1-500x321.jpg)
-*Two new tablet apps – the Fake or Real game and The Internet you Don’t See -
-displayed on three tablets with their own table surround.*
 
-
+```
+Visualisations on large laminated card based on Glass Room objects: The Alphabet
+Empire and The Zuckerberg House
+```
 ![description](/uploads/7-500x333.jpg)
-*Visualisations on large laminated card based on Glass Room objects: The Alphabet
-Empire and The Zuckerberg House*
 
+```
+A new giant visualisation explaining facial recognition – The Real Life of Your Selfie
+```
 ![description](/uploads/7-500x333.jpg)
-*A new giant visualisation explaining facial recognition – The Real Life of Your Selfie*
 
 
 The Glass Room Experience also includes:

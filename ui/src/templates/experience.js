@@ -15,7 +15,7 @@ export default ({ data }) => {
                 <div className={styles.imageWrapper}><div key={i} className={styles.rowImage} style={{ backgroundImage: `url(${n})` }}></div></div>
             ))}
           </div>
-          <div dangerouslySetInnerHTML={{ __html: data.experience.html }} ></div>
+          <div className={styles.content} dangerouslySetInnerHTML={{ __html: data.experience.html }} ></div>
         </div>
     );
 
