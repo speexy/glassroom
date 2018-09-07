@@ -4,5 +4,60 @@
 .footer {
   background-color: grey;
   width: 100%;
-  height: 120px;
+  height: footerHeight;
+  padding: padding;
+}
+
+.logoWrapper {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 2px white;
+  width: 100%;
+  max-width: maxContentWidth;
+  margin: 0 auto;
+  display: flex;
+}
+@media (max-width: tablet) {
+  .logoWrapper {
+    flex-wrap: wrap;
+  }
+}
+
+.flexItem {
+  margin: calc(gutter * 2);
+}
+
+.logo{
+  width: 200px;
+}
+
+.social a, .legal a {
+  color: white;
+}
+
+.social a:last-child {
+  margin-left: gutter;
+}
+
+.social a:first-child:hover svg path {
+  fill: #4267b2;
+}
+
+.social a:last-child:hover svg path {
+  fill: unset;
+}
+
+.legal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.legal a {
+  margin: gutter;
+}
+
+.legal a:hover {
+  color: active;
 }

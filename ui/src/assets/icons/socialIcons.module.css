@@ -1,0 +1,50 @@
+@import "../../layouts/variables.css";
+
+
+.facebook, .twitter, .youtube {
+  height: iconSize;
+  width: iconSize;
+}
+
+.twitter path, .youtube path {
+  fill: white;
+}
+
+.facebook path {
+  fill: grey;
+}
+
+
+.facebook:hover path {
+  fill: #4267b2;
+}
+
+.facebook rect {
+  fill: white;
+  rx: 5px;
+  ry: 5px;
+}
+
+/*
+.facebook:hover rect {
+  fill: paper;
+}
+*/
+
+.twitter:hover path {
+  fill: unset;
+}
+
+/*
+.youtube polygon {
+  fill: #00027F;
+}
+
+.youtube:hover path {
+  fill: #FF0000;
+}
+
+.youtube:hover polygon {
+  fill: #FDFCF4;
+}
+*/

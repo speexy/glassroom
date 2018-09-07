@@ -1,14 +1,17 @@
 /* colors */
-@value active: #f00;
+@value active: #00458b;
 @value lightGrey: #f3f3f3;
 @value grey: #7d7d7d;
+
 
 /*sizes*/
 @value maxContentWidth: 1170px;
 @value padding: 15px;
 @value gutter: 20px;
 @value headerHeight: 64px;
+@value footerHeight: auto;
+@value iconSize: 18px;
 
 /* breakpoints*/
-@value break-mobile: 420px;
-@value break-tablet: 768px;
+@value mobile: 420px;
+@value tablet: 768px;
