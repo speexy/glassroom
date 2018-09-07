@@ -11,6 +11,10 @@
   }
 }
 
+.navMain a:hover {
+  color: active;
+}
+
 .navOpened {
 }
 
