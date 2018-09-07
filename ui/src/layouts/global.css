@@ -19,6 +19,7 @@
 
 :global a {
   text-decoration: none;
+  color: grey;
 }
 
 :global a:active {
