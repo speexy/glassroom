@@ -42,7 +42,7 @@ export const programQuery = graphql`
       }
       html
     }
-    nav:   markdownRemark(fileAbsolutePath: {regex: "/content/navigation/"}) {
+    nav: markdownRemark(fileAbsolutePath: {regex: "/content/navigation/"}) {
       frontmatter {
         imageNavProgram{
           image
