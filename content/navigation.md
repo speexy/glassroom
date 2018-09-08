@@ -16,10 +16,10 @@ imageNav:
     label: The Glass Room Experience
     url: /glassroom-experience
 imageNavProgram:
-  - image: /uploads/TheGlassRoomWindow-333x333.jpg
+  - image: /uploads/Speakers-1-333x333.jpg
     label: Speakers
     url: /about
-  - image: /uploads/exhibit-321x321.jpg
+  - image: /uploads/Workshops-361x361.jpg
     label: Workshops
     url: https://tacticaltech.org/news/glass-room-public-response/
 
