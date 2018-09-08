@@ -6,3 +6,9 @@
   padding: padding;
   padding-top: calc(headerHeight + padding);
 }
+@media (max-width: mobile) {
+  .main {
+    padding: calc(padding * 2);
+    padding-top: calc(headerHeight + padding);
+  }
+}

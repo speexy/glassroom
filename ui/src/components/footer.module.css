@@ -25,7 +25,7 @@
 }
 
 .flexItem {
-  margin: calc(gutter * 2);
+  margin: gutter;
 }
 
 .logo{

@@ -30,6 +30,11 @@
   margin: gutter auto;
   padding: gutter;
 }
+@media (max-width: mobile) {
+  .card {
+    padding: padding;
+  }
+}
 
 .flexWrapper {
   display: flex;
@@ -50,6 +55,12 @@
   background-position: center;
   background-size: cover;
 }
+@media (max-width: mobile){
+  .curatorImage {
+    width: 200px;
+    height: 200px;
+  }
+}
 
 .partnerWrapper {
   width: 50%;
@@ -60,6 +71,12 @@
     width:100%;
   }
 }
+@media (max-width: mobile){
+  .partnerWrapper {
+    width:100%;
+    padding: 0;
+  }
+}
 
 .supportWrapper {
   width: 25%;
@@ -68,6 +85,11 @@
 @media (max-width: tablet){
   .supportWrapper {
     width:50%;
+  }
+}
+@media (max-width: mobile){
+  .supportWrapper {
+    width:100%;
   }
 }
 
