@@ -7,7 +7,7 @@ import styles from './about.module.css';
 
 export default ({ data }) => {
 
-  const {blockquote, imageRow, curators, partners, contact } = data.about.frontmatter
+  const {blockquote, imageRow, curators, partners, contact, support } = data.about.frontmatter
 
     return (
         <div>
@@ -31,22 +31,29 @@ export default ({ data }) => {
             <div className={styles.card}>
               <h2>Partners</h2>
               <div className={styles.flexWrapper}>
-
               { partners.map((n,i)=>(
-
                 <div key={i} className={styles.partnerWrapper}>
                   <img src={n.image}/>
                   <ReactMarkdown source={n.text}/>
                 </div>
-
               ))}
-
               </div>
             </div>
 
             <div className={styles.card}>
               <h2>Contact</h2>
                 <Blockquote quote={<ReactMarkdown source={contact}/>} />
+            </div>
+
+            <div className={styles.card}>
+              <h2>With Support from Tactical Tech Funders</h2>
+              <div className={styles.flexWrapper}>
+              { support.map((n,i)=>(
+                <div key={i} className={styles.supportWrapper}>
+                  <img src={n}/>
+                </div>
+              ))}
+              </div>
             </div>
 
           </div>
@@ -73,6 +80,7 @@ export const aboutQuery = graphql`
           twitter
         }
         contact
+        support
       }
       html
     }

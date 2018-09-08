@@ -61,6 +61,16 @@
   }
 }
 
-.partnerWrapper img {
+.supportWrapper {
+  width: 25%;
+  padding: gutter;
+}
+@media (max-width: tablet){
+  .supportWrapper {
+    width:50%;
+  }
+}
+
+.partnerWrapper img , .supportWrapper img{
   width: 100%;
 }
