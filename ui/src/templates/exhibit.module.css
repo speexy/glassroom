@@ -1,1 +1,10 @@
 @import "../layouts/variables.css";
+
+.greyBackground {
+  width: 100vw;
+  background-color: lightGrey;
+  font-weight: 300;
+  padding: gutter;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}

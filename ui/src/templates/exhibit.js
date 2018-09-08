@@ -17,9 +17,12 @@ export default ({ data }) => {
           <Blockquote quote={<ReactMarkdown source={blockquote}/>}/>
           <Content content={data.exhibit.html}/>
 
-          {exhibits.map((n,i)=>(
-            <ExhibitItem key={i} image={n.image} title={n.title} text={n.text}/>
-          ))}
+          <div className={styles.greyBackground}>
+
+            {exhibits.map((n,i)=>(
+              <ExhibitItem key={i} image={n.image} title={n.title} text={n.text}/>
+            ))}
+          </div>
 
         </div>
     );
