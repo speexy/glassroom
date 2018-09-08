@@ -26,12 +26,21 @@ You can opply to host your own exhibition [here](https://lime.ttc.io/index.php/8
 
 The Glass Room installation consists of:
 
+imageRow:
+  - /uploads/11-500x333.jpg
+  - /uploads/7-500x333.jpg
+  - /uploads/1-500x321.jpg
+
 Two new tablet apps – the Fake or Real game and The Internet you Don’t See - displayed on three tablets with their own table surround.
 
 Visualisations on large laminated card based on Glass Room objects: The Alphabet Empire and The Zuckerberg House
 
-
 A new giant visualisation explaining facial recognition – The Real Life of Your Selfie
+
+imageRow:
+  - /uploads/11-500x333.jpg
+  - /uploads/7-500x333.jpg
+  - /uploads/1-500x321.jpg
 
 The Glass Room Experience also includes:
 
@@ -44,11 +53,21 @@ A Data Detox Bar, where visitors can take away a Data Detox Kit: www.myshadow.,o
 
 An essential part of The Glass Room Experience is the Data Detox Kit. Most hosts of The Glass Room Experience will be able to print their own copies of the Data Detox Kit from a normal printer or a print shop from a PDF we can send to you.
 
+imageRow:
+  - /uploads/11-500x333.jpg
+  - /uploads/7-500x333.jpg
+  - /uploads/1-500x321.jpg
+
 **Host your own Glass Room Experience**
 
 Hosting your own Glass Room Experience is very easy. We’ve found it works best in busy places with plenty of free space, or as part of a bigger event. It can be set up for anytime from 2 -3 days to a longer period. It can also be set up as a longer term exhibition in libraries and other public buildings.
 
 The exhibit is visually striking and can adapt to most spaces. Generally, visitors browse the exhibits for between 5 to 15 minutes. It works as a stand-alone installation – all the exhibits have simple explanations. But it works even better if there is one or more people on hand as  “Data Detox Baristas” to explain the exhibit or give tips and advice on online privacy.
+
+imageRow:
+  - /uploads/11-500x333.jpg
+  - /uploads/7-500x333.jpg
+  - /uploads/1-500x321.jpg
 
 We’ll send you The Glass Room Experience set, including:
 A set of Glass Room posters
