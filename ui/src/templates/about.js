@@ -7,7 +7,7 @@ import styles from './about.module.css';
 
 export default ({ data }) => {
 
-  const {blockquote, imageRow, curators, partners } = data.about.frontmatter
+  const {blockquote, imageRow, curators, partners, contact } = data.about.frontmatter
 
     return (
         <div>
@@ -44,14 +44,19 @@ export default ({ data }) => {
               </div>
             </div>
 
+            <div className={styles.card}>
+              <h2>Contact</h2>
+                <Blockquote quote={<ReactMarkdown source={contact}/>} />
+            </div>
+
           </div>
         </div>
     );
 
 };
 
-export const boutQuery = graphql`
-  query abotQuery ($path: String!) {
+export const aboutQuery = graphql`
+  query aboutQuery ($path: String!) {
     about: markdownRemark(fields: { slug: { eq: $path } }) {
       html
       frontmatter {
@@ -67,6 +72,7 @@ export const boutQuery = graphql`
           facebook
           twitter
         }
+        contact
       }
       html
     }

@@ -28,7 +28,7 @@
   background-color: white;
   max-width: maxContentWidth;
   margin: gutter auto;
-  padding: padding;
+  padding: gutter;
 }
 
 .flexWrapper {
