@@ -7,7 +7,7 @@ import styles from './about.module.css';
 
 export default ({ data }) => {
 
-  const {blockquote, imageRow, curators } = data.about.frontmatter
+  const {blockquote, imageRow, curators, partners } = data.about.frontmatter
 
     return (
         <div>
@@ -20,23 +20,38 @@ export default ({ data }) => {
 
           <div className={styles.greyBackground}>
 
-            <div className={styles.curators}>
+            <div className={styles.card}>
               <h2>Curators</h2>
-              <div className={styles.curatorWrapper}>
+              <div className={styles.flexWrapper}>
                 <div className={styles.curatorImage} style={{ backgroundImage: `url(${curators.image})` }}></div>
                 <ReactMarkdown source={curators.text}/>
               </div>
             </div>
 
-          </div>
+            <div className={styles.card}>
+              <h2>Partners</h2>
+              <div className={styles.flexWrapper}>
 
+              { partners.map((n,i)=>(
+
+                <div key={i} className={styles.partnerWrapper}>
+                  <img src={n.image}/>
+                  <ReactMarkdown source={n.text}/>
+                </div>
+
+              ))}
+
+              </div>
+            </div>
+
+          </div>
         </div>
     );
 
 };
 
-export const aboutQuery = graphql`
-  query aboutQuery ($path: String!) {
+export const boutQuery = graphql`
+  query abotQuery ($path: String!) {
     about: markdownRemark(fields: { slug: { eq: $path } }) {
       html
       frontmatter {
@@ -45,6 +60,12 @@ export const aboutQuery = graphql`
         curators {
           image
           text
+        }
+        partners {
+          image
+          text
+          facebook
+          twitter
         }
       }
       html

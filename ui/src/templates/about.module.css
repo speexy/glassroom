@@ -24,19 +24,19 @@
 }
 
 
-.curators {
+.card {
   background-color: white;
   max-width: maxContentWidth;
-  margin: 0 auto;
+  margin: gutter auto;
   padding: padding;
 }
 
-.curatorWrapper {
+.flexWrapper {
   display: flex;
   margin: gutter;
 }
 @media (max-width: tablet){
-  .curatorWrapper {
+  .flexWrapper {
     flex-wrap: wrap;
   }
 }
@@ -49,4 +49,18 @@
   margin: padding 60px padding 0;
   background-position: center;
   background-size: cover;
+}
+
+.partnerWrapper {
+  width: 50%;
+  padding: gutter;
+}
+@media (max-width: tablet){
+  .partnerWrapper {
+    width:100%;
+  }
+}
+
+.partnerWrapper img {
+  width: 100%;
 }
