@@ -14,36 +14,39 @@
   border: none;
 }
 
-.imageRow {
+.greyBackground {
+  width: 100vw;
+  background-color: lightGrey;
+  font-weight: 300;
+  padding: gutter;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.curators {
+  background-color: white;
+  max-width: maxContentWidth;
+  margin: 0 auto;
+  padding: padding;
+}
+
+.curatorWrapper {
   display: flex;
-  justify-content: space-between;
-}
-
-.imageWrapper {
-  width: 360px;
   margin: gutter;
 }
-
-.rowImage{
-  width: 100%;
-  height: 0;
-  padding-top: 66%;
-  background-position: center;
-  background-size: cover;
+@media (max-width: tablet){
+  .curatorWrapper {
+    flex-wrap: wrap;
+  }
 }
 
-
-
-.wrapper{
-  width: 200px;
-  margin: gutter;
-}
-
-.image{
+.curatorImage {
+  flex-shrink: 0;
   border-radius: 100%;
-  width: 100%;
-  height: 0;
-  padding-top: 100%;
+  width: 260px;
+  height: 260px;
+  margin: padding 60px padding 0;
   background-position: center;
   background-size: cover;
 }

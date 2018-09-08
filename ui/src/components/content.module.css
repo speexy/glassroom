@@ -5,7 +5,7 @@
   margin: 0 auto;
 }
 
-.content p, .content ul, .content pre {
+.content ul, .content pre {
   padding: padding 0;
 }
 
