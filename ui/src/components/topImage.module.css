@@ -1,0 +1,28 @@
+@import "../layouts/variables.css";
+
+
+.topImage {
+  width: 100%;
+  height: 0;
+  padding: 33%;
+  background-position: center;
+  background-size: cover;
+}
+
+.imageRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imageWrapper {
+  width: 360px;
+  margin: gutter;
+}
+
+.rowImage{
+  width: 100%;
+  height: 0;
+  padding-top: 66%;
+  background-position: center;
+  background-size: cover;
+}

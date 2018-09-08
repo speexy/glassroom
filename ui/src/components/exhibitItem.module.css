@@ -1,0 +1,27 @@
+@import '../layouts/variables.css';
+
+
+.exhibit {
+  display: flex;
+}
+@media (max-width: tablet){
+  .exhibit{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.exhibitImage {
+  flex-shrink: 0;
+  width: 300px;
+  height: 225px;
+  margin: padding 60px padding 0;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: tablet) {
+  .exhibitImage{
+    width: 360px;
+    margin: 0 auto;
+  }
+}

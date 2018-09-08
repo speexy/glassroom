@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import {TopImage} from '../components/TopImage.js';
 import {Blockquote} from '../components/Blockquote.js';
 import {ImageRow} from '../components/ImageRow.js';
 import {Content} from '../components/Content.js';
@@ -10,8 +12,8 @@ export default ({ data }) => {
 
     return (
         <div>
-          <div className={styles.topImage} style={{ backgroundImage: `url(${topImage})` }}></div>
-          <Blockquote quote={blockquote}/>
+          <TopImage image={topImage}/>
+          <Blockquote quote={<ReactMarkdown source={blockquote}/>}/>
           <ImageRow images={imageRow}/>
           <Content content={data.experience.html}/>
         </div>

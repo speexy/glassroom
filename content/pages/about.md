@@ -5,6 +5,34 @@ imageRow:
   - /uploads/11-500x333.jpg
   - /uploads/7-500x333.jpg
   - /uploads/1-500x321.jpg
+curators:
+  image: /uploads/StephMarek-copy-496x496.jpg
+  text: |
+    Executive Director Stephanie Hankey and Creative Director Marek Tuszynski co-founded Tactical Tech in 2003. They work on technology, politics, information, design and activism and the consequences of living in a quantified society. They are also co-founders of the creative agency Tactical Studios and co-curators of the exhibition Nervous Systems: Quantified Life and the Social Question.
+
+    **Stephanie Hankey** is a designer and technologist; she was awarded an Ashoka Fellowship for her work as a social entrepreneur and is currently a visiting industry associate with the Oxford Internet Institute at Oxford University.
+
+    **Marek Tuszynski** is an activist and filmmaker; his most recent documentary series for Tactical Tech, Exposing the Invisible, explores the digital tools and tactics that now enable evidence-based activism to thrive on an unprecedented scale.
+partners:
+  - image: /uploads/mozilla-logo.svg
+    text: Mozilla is the non-profit behind the Firefox web browser, and uses technology, products and advocacy to make the internet healthier so it’s easy to access, safe to use, and empowers everyone, everywhere.
+    web: bla
+    facebook: bla
+    twitter: bla
+  - image: /uploads/ttc_black_logo.svg
+    text: Tactical Tech is a Berlin-based organisation working at the intersection of technology, human rights and civil liberties. They provide trainings, conduct research, and create cultural interventions that contribute to the wider socio-political debate around digital security, privacy and the ethics of data.
+    web: bla
+    facebook: bla
+    twitter: bla
+contact: |
+  events@tacticaltech.org
+
+  press@mozilla.com
+support:
+  - /uploads/GI_Logo_horizontal_black_sRGB-e1511367245382.png
+  - /uploads/omidyar_network_logo-200x100.png
+  - /uploads/OSF_logo_RGB-e1511366899696.jpg
+  - /uploads/sigridrausinglogo-e1511367719201.jpg
 ---
 
 
