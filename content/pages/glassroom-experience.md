@@ -2,10 +2,26 @@
 templateKey: experience
 blockquote: An eye-catching, self-learning installation on data and privacy you can easily set up and host for your own event, organisation or space. What is personal data in an age when our data is everything but personal? Our websites, apps, social media and 'smart' devices all thrive on the same thing that makes tech companies billions – data. Not just any data, but our data.
 topImage: /uploads/header.jpg
-imageRow:
-  - /uploads/11-500x333.jpg
-  - /uploads/7-500x333.jpg
-  - /uploads/1-500x321.jpg
+imageRow1:
+  - /uploads/r1_1.jpg
+  - /uploads/r1_2.jpg
+  - /uploads/r1_3.jpg
+imageRow2:
+  - /uploads/r1_1.jpg
+  - /uploads/r1_2.jpg
+  - /uploads/r1_3.jpg
+imageRow3:
+  - /uploads/r1_1.jpg
+  - /uploads/r1_2.jpg
+  - /uploads/r1_3.jpg
+imageRow4:
+  - /uploads/r1_1.jpg
+  - /uploads/r1_2.jpg
+  - /uploads/r1_3.jpg
+imageRow5:
+  - /uploads/r1_1.jpg
+  - /uploads/r1_2.jpg
+  - /uploads/r1_3.jpg
 ---
 
 What is personal data in an age when our data is everything but personal? Our websites, apps, social media and 'smart' devices all thrive on the same thing that makes tech companies billions – data. Not just any data, but our data.
@@ -62,8 +78,8 @@ imageRow:
   - /uploads/r4_1.jpg
   - /uploads/r4_2.jpg
   - /uploads/r4_3.jpg
-  
-  
+
+
 **Host your own Glass Room Experience**
 
 Hosting your own Glass Room Experience is very easy. We’ve found it works best in busy places with plenty of free space, or as part of a bigger event. It can be set up for anytime from 2 -3 days to a longer period. It can also be set up as a longer term exhibition in libraries and other public buildings.
