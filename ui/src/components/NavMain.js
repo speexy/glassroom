@@ -19,6 +19,9 @@ const NavMain = (props) => {
           <Link to={'/exhibit'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
               Exhibit
           </Link>
+          <Link to={'/program'} className={styles.link} activeClassName={styles.active} onClick={toggle}>
+              Program
+          </Link>
       </ul>
     </nav>
   )
