@@ -30,8 +30,8 @@ export default ({ data }) => {
 
 };
 
-export const ehibitQuery = graphql`
-  query exhiitQuery ($path: String!) {
+export const exhibitQuery = graphql`
+  query exhibitQuery ($path: String!) {
     exhibit: markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
         title

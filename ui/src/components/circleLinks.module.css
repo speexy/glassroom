@@ -1,6 +1,16 @@
 @import '../layouts/variables.css';
 
 
+.imageNavWrapper {
+  display: flex;
+  justify-content: space-around;
+}
+@media(max-width:tablet){
+  .imageNavWrapper{
+    flex-wrap: wrap;
+  }
+}
+
 .wrapper{
   width: 200px;
   margin: gutter;

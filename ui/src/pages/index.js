@@ -1,6 +1,6 @@
 import React from 'react';
 import {Blockquote} from '../components/Blockquote.js';
-import {CircleLink} from '../components/CircleLink';
+import {CircleLinks} from '../components/CircleLinks';
 import styles from './index.module.css';
 
 export default ({ data }) => {
@@ -16,11 +16,7 @@ export default ({ data }) => {
         <div>
           <div className={styles.slider} style={{ backgroundImage: `url(${images})` }}></div>
           <Blockquote quote={quote}/>
-          <div className={styles.imageNavWrapper}>
-            {imageNav.map((n,i)=>(
-              <CircleLink key={i} image={n.image} label={n.label} url={n.url}/>
-            ))}
-          </div>
+          <CircleLinks nav={imageNav}/>
         </div>
     );
 
