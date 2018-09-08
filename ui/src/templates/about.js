@@ -1,5 +1,6 @@
 import React from 'react';
 import {Blockquote} from '../components/Blockquote.js';
+import {ImageRow} from '../components/ImageRow.js';
 import {Content} from '../components/Content.js';
 import styles from './about.module.css';
 
@@ -13,11 +14,7 @@ export default ({ data }) => {
             <iframe className={styles.video} src="https://player.vimeo.com/video/237822352" width="1170" height="658" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
           <Blockquote quote={blockquote}/>
-          <div className={styles.imageRow}>
-            {imageRow.map((n,i)=>(
-                <div className={styles.imageWrapper}><div key={i} className={styles.rowImage} style={{ backgroundImage: `url(${n})` }}></div></div>
-            ))}
-          </div>
+          <ImageRow images={imageRow}/>
           <Content content={data.about.html }/>
         </div>
     );
