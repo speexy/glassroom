@@ -1,13 +1,13 @@
 @import "variables.css";
 
 
-:global * {
+* {
   box-sizing: border-box;
   margin: 0;
 }
 
 /* base font styles */
-:global body {
+body {
   margin: 0;
   font-size: 18px;
   color: grey;
@@ -17,12 +17,12 @@
   overflow-x: hidden;
 }
 
-:global a {
+a {
   text-decoration: none;
   color: grey;
 }
 
-:global a:active {
+a:active {
   color: black;
 }
 
