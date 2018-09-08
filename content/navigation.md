@@ -21,12 +21,12 @@ imageNavProgram:
       **Speakers**
 
       AI and Human Rights  to The Rise of the Radicals; see more from the talks programme.
-    url: /about
+    url: /program#speaker
   - image: /uploads/Workshops-361x361.jpg
     label: |
       **Workshops **
-      
+
       How to Hack Your Breaking News Feed to Citizen Scores; see more past workshops.
-    url: https://tacticaltech.org/news/glass-room-public-response/
+    url: /program#workshops
 
 ---
