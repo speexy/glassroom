@@ -32,7 +32,7 @@ const Footer = () => (
 
       </div>
       <div className={styles.legal}>
-        <Link to={'/'}>Privacy Policy</Link>
+        <Link to={'/privacy'}>Privacy Policy</Link>
       </div>
     </div>
 );

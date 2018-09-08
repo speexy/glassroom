@@ -12,6 +12,7 @@
 @value headerHeight: 64px;
 @value footerHeight: auto;
 @value iconSize: 18px;
+@value textBlockWidth: 860px;
 
 /* breakpoints*/
 @value mobile: 420px;
