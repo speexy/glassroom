@@ -8,6 +8,7 @@
   background-color: lightGrey;
   width:100%;
   height: headerHeight;
+  z-index: 100;
 }
 
 .wrapper {

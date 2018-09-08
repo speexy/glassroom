@@ -20,8 +20,15 @@
 }
 
 .navOpened {
+  margin-top: calc( gutter * 3);
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.navOpened a {
+  display: block;
+  padding: padding;
 }
 
 .navClosed {
-
+  display: none;
 }
