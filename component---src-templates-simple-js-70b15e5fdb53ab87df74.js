@@ -1,0 +1,2 @@
+webpackJsonp([0x6263376fdefa],{317:function(e,t,n){"use strict";function a(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0,t.simpleQuery=void 0;var r=n(1),u=a(r),l=n(152);t.default=function(e){var t=e.data;return u.default.createElement(l.Content,{content:t.simple.html})};t.simpleQuery="** extracted graphql fragment **"}});
+//# sourceMappingURL=component---src-templates-simple-js-70b15e5fdb53ab87df74.js.map
