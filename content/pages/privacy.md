@@ -1,8 +1,7 @@
 ---
 templateKey: simple
+title: privacy policy
 ---
-
-# Privacy Policy
 
 You’ll notice this privacy policy is short, simple and in plain language. Data collection, where needed, is minimized in accordance to lean data practices and choices are provided to you. This is a model for other organizations to follow.
 

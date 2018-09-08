@@ -1,5 +1,6 @@
 ---
 templateKey: about
+title: about
 blockquote: At first glance, it offers the latest in shiny digital consumer products, such as the newest tablet, fitness tracker or facial recognition software. But as you go inside, you’ll find there is nothing for sale.
 imageRow:
   - /uploads/11-500x333.jpg

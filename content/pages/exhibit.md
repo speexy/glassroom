@@ -1,5 +1,6 @@
 ---
 templateKey: exhibit
+title: exhibit
 blockquote: "*…provocative artworks that play with the use and abuse of data in our world* – Hyperallergic on The Glass Room NYC"
 topImage: /uploads/the_glass_room_05_11_17_55-1000x717.jpg
 ---

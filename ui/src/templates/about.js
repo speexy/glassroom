@@ -7,10 +7,11 @@ import styles from './about.module.css';
 
 export default ({ data }) => {
 
-  const {blockquote, imageRow, curators, partners, contact, support } = data.about.frontmatter
+  const {title, blockquote, imageRow, curators, partners, contact, support } = data.about.frontmatter
 
     return (
         <div>
+          <h1>{title}</h1>
           <div className={styles.videoWrapper}>
             <iframe className={styles.video} src="https://player.vimeo.com/video/237822352" width="1170" height="658" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
           </div>
@@ -67,6 +68,7 @@ export const aboutQuery = graphql`
     about: markdownRemark(fields: { slug: { eq: $path } }) {
       html
       frontmatter {
+        title
         blockquote
         imageRow
         curators {

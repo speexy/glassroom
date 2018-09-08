@@ -8,11 +8,12 @@ import styles from './exhibit.module.css';
 
 export default ({ data }) => {
 
-  const {topImage, blockquote } = data.exhibit.frontmatter
+  const {title, topImage, blockquote } = data.exhibit.frontmatter
   const exhibits = data.exhibitItems.frontmatter.exhibits
 
     return (
         <div>
+          <h1>{title}</h1>
           <TopImage image={topImage}/>
           <Blockquote quote={<ReactMarkdown source={blockquote}/>}/>
           <Content content={data.exhibit.html}/>
@@ -33,6 +34,7 @@ export const ehibitQuery = graphql`
   query exhiitQuery ($path: String!) {
     exhibit: markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
+        title
         topImage
         blockquote
       }

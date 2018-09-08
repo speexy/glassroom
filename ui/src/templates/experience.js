@@ -8,10 +8,11 @@ import styles from './experience.module.css';
 
 export default ({ data }) => {
 
-  const {topImage, blockquote, imageRow } = data.experience.frontmatter
+  const {title, topImage, blockquote, imageRow } = data.experience.frontmatter
 
     return (
         <div>
+          <h1>{title}</h1>
           <TopImage image={topImage}/>
           <Blockquote quote={<ReactMarkdown source={blockquote}/>}/>
           <ImageRow images={imageRow}/>
@@ -25,6 +26,7 @@ export const experienceQuery = graphql`
   query experienceQuery ($path: String!) {
     experience: markdownRemark(fields: { slug: { eq: $path } }) {
       frontmatter {
+        title
         topImage
         blockquote
         imageRow
