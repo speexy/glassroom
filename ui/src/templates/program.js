@@ -1,0 +1,54 @@
+import React from 'react';
+import ReactMarkdown from 'react-markdown';
+import {TopImage} from '../components/TopImage.js';
+import {Blockquote} from '../components/Blockquote.js';
+import {Content} from '../components/Content.js';
+import {ExhibitItem} from '../components/ExhibitItem.js';
+import styles from './exhibit.module.css';
+
+export default ({ data }) => {
+
+  const {title, topImage, blockquote } = data.exhibit.frontmatter
+  const exhibits = data.exhibitItems.frontmatter.exhibits
+
+    return (
+        <div>
+          <h1>{title}</h1>
+          <TopImage image={topImage}/>
+          <Blockquote quote={<ReactMarkdown source={blockquote}/>}/>
+          <Content content={data.exhibit.html}/>
+
+          <div className={styles.greyBackground}>
+
+            {exhibits.map((n,i)=>(
+              <ExhibitItem key={i} image={n.image} title={n.title} text={n.text}/>
+            ))}
+          </div>
+
+        </div>
+    );
+
+};
+
+export const ehibitQuery = graphql`
+  query exhiitQuery ($path: String!) {
+    exhibit: markdownRemark(fields: { slug: { eq: $path } }) {
+      frontmatter {
+        title
+        topImage
+        blockquote
+      }
+      html
+    }
+    exhibitItems: markdownRemark(fileAbsolutePath: {regex: "/content/exhibits/"}) {
+      frontmatter {
+        exhibits{
+          image
+          title
+          text
+          url
+        }
+      }
+    }
+   }
+`;

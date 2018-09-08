@@ -15,4 +15,12 @@ imageNav:
   - image: /uploads/davidmirzoeff_15_10_17_glass_room_tate_49-334x334.jpg
     label: The Glass Room Experience
     url: /glassroom-experience
+imageNavProgram:
+  - image: /uploads/TheGlassRoomWindow-333x333.jpg
+    label: Speakers
+    url: /about
+  - image: /uploads/exhibit-321x321.jpg
+    label: Workshops
+    url: https://tacticaltech.org/news/glass-room-public-response/
+
 ---
