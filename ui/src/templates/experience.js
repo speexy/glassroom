@@ -8,7 +8,7 @@ import styles from './experience.module.css';
 
 export default ({ data }) => {
 
-  const {title, topImage, blockquote, imageRow1, imageRow2, imageRow3, imageRow4, imageRow5, } = data.experience.frontmatter
+  const {title, topImage, blockquote, imageRow1, imageRow2, imageRow3, imageRow4, imageRow5 } = data.experience.frontmatter
 
     return (
         <div>
