@@ -17,10 +17,16 @@ imageNav:
     url: /glassroom-experience
 imageNavProgram:
   - image: /uploads/Speakers-1-333x333.jpg
-    label: Speakers
+    label: |
+      **Speakers**
+
+      AI and Human Rights  to The Rise of the Radicals; see more from the talks programme.
     url: /about
   - image: /uploads/Workshops-361x361.jpg
-    label: Workshops
+    label: |
+      **Workshops **
+      
+      How to Hack Your Breaking News Feed to Citizen Scores; see more past workshops.
     url: https://tacticaltech.org/news/glass-room-public-response/
 
 ---
