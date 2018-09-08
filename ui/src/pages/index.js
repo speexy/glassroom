@@ -33,7 +33,7 @@ export const indexQuery = graphql`
       }
       html
     }
-    nav:   markdownRemark(fileAbsolutePath: {regex: "/content/navigation/"}) {
+    nav: markdownRemark(fileAbsolutePath: {regex: "/content/navigation/"}) {
       frontmatter {
         imageNav{
           image

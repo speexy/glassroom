@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import {TopImage} from '../components/TopImage.js';
 import {Blockquote} from '../components/Blockquote.js';
 import {CircleLinks} from '../components/CircleLinks.js';
-import styles from './exhibit.module.css';
+import styles from './program.module.css';
 
 export default ({ data }) => {
 

@@ -3,7 +3,7 @@
 
 .imageNavWrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 @media(max-width:tablet){
   .imageNavWrapper{
@@ -25,4 +25,14 @@
   padding-top: 100%;
   background-position: center;
   background-size: cover;
+}
+
+.wrapper p {
+  padding: 0;
+  text-align: left;
+}
+
+.wrapper p:first-child {
+  padding: padding;
+  text-align: center;
 }
